@@ -1,0 +1,283 @@
+header a.custom-logo img {
+    height: 56px !important;
+    width: 51px !important;
+}
+
+.btn.btn-black {
+    background: #ff214f;
+    border-color: #ff214f;
+    color: #fff
+}
+
+.bg-white2 {
+    padding: 50px;
+}
+
+.bg-white {
+    background-color: #000;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.down {
+    padding-top: 150px;
+}
+
+.blue {
+    color: blue;
+}
+
+input[type="text"] {
+    background: transparent;
+    color: rgba(88, 88, 88, 0.904)!important;
+}
+#passwordfield input[type="password"] {
+    background: transparent;
+    color: rgb(49, 48, 48) !important;
+}
+input[type="password"]:focus{
+    color:  rgb(49, 48, 48) !important;
+}
+input[type="email"] {}
+
+input[type="text"]:focus {
+    color: rgba(138, 135, 135, 0.904)!important;
+    font-weight: 300;
+}
+
+#budget {
+    width: 80%;
+}
+
+input[type="password"]:focus {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+input[type="email"]:focus {
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.custom-btn:hover {
+    color: #ddd !important;
+}
+
+header nav .row1 {
+    align-items: center;
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    height: auto;
+    padding: 100px;
+}
+
+header nav .row1>div:first-child {
+    flex: 1 1 auto;
+}
+
+
+/* display form according to the javascript*/
+
+#second {
+    position: relative;
+}
+
+#signup,
+#signin {
+    cursor: pointer;
+}
+
+
+/* tent booking styling  and hotel booking styling*/
+
+a#Link {
+    color: white;
+    font-size: 15px;
+}
+
+#test {
+    color: #f0ecec;
+}
+
+@media (max-width: 767px){
+    .slidertext {
+    color: white !important;
+    font-weight: 5px !important;
+    font-size: 15px !important;
+}
+}
+
+@media (max-width: 991px) {
+.slidertext {
+    color: white !important;
+    font-weight: 5px !important;
+    font-size: 10px !important;
+}
+}
+
+
+/* contact form edit*/
+
+
+/*custom font*/
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+/*basic reset*/
+
+
+/*form styles*/
+
+#msform {}
+
+#msform fieldset {}
+
+
+/*Hide all except first fieldset*/
+
+#msform fieldset:not(:first-of-type) {
+    display: none;
+}
+
+
+/*inputs*/
+
+#msform input,
+#msform textarea {
+    width: 80% !important;
+}
+
+
+/*buttons*/
+
+#msform .action-button {}
+
+#navLinks {
+    display: none;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {}
+
+
+/*headings*/
+
+.fs-title {}
+
+.fs-subtitle {}
+
+
+/*progressbar*/
+
+#progressbar li:first-child:after {
+    /*connector not needed before the first step*/
+    content: none;
+}
+
+
+/*marking active/completed steps green*/
+
+
+/*The number of the step and the connector before it = green*/
+
+a {
+    cursor: pointer;
+}
+
+
+/* background edit for the setname vote page*/
+
+.backg {
+    background-image: url('../images/bgimg4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.bg-bg{
+    background-color: #e9e7e7 !important;
+}
+
+.bgcover {
+    background-color: rgba(0, 0, 0, .4);
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.custom-card {
+    border: 1px solid rgb(90, 86, 86);
+    border-radius: 3px;
+    position: relative;
+    background-color: rgba(0, 0, 0, .7);
+    margin: 2em auto;
+}
+
+.image-container {
+    height: 70%;
+    border: 1px solid rgb(90, 86, 86);
+}
+
+.image-wrapper {
+    width: 90%;
+    margin: 1em auto;
+    border-radius: 2em solid #ddd;
+}
+
+.btn-custom {
+    margin: 2em auto;
+    text-align: center;
+    border-radius: 2em !important;
+}
+
+.desc {
+    text-align: center;
+    margin: 1em auto;
+    color: #dddddd;
+    font-size: 22px;
+}
+
+.btn-btn {
+    border-radius: 2em;
+}
+
+.text-wrapper {
+    text-align: center !important;
+    margin: 5em auto !important;
+    background-color: rgba(0, 0, 0, .7) !important;
+    width: auto !important;
+}
+
+.text-wrapper h3,
+h6 {
+    color: #ddd !important;
+}
+
+.btn-medium {
+    margin-bottom: 2em !important;
+}
+
+/* code edit for the bad images with d contact forms and after the video section*/
+
+.bg-images{
+    background-repeat: no-repeat !important;
+    width: 100vh;
+}
+.bg-customs{
+    background-color: rgba(0, 0, 0, .7) !important;
+}
+input[type="text"]:focus{
+    background-color: transparent;
+    color: rgb(73, 72, 72) !important;
+    font-weight: 600;
+}
+input[type="password"]{
+    background-color: transparent;
+}
+#passwordfield{
+    background-color: transparent;
+}
